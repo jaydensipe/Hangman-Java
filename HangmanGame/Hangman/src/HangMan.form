@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HangMan">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="873" height="672"/>
+    </constraints>
+    <properties>
+      <background color="-4497571"/>
+    </properties>
+    <border type="bevel-lowered" title="Created by Jayden Sipe" title-justification="2">
+      <font name="MV Boli" size="14"/>
+      <title-color color="-8120056"/>
+    </border>
+    <children>
+      <component id="bd518" class="javax.swing.JButton" binding="hardButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="28"/>
+          <text value="Hard!"/>
+        </properties>
+      </component>
+      <vspacer id="5f39c">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f3ec8" class="javax.swing.JButton" binding="mediumButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="28"/>
+          <text value="Medium!"/>
+        </properties>
+      </component>
+      <component id="c2a5e" class="javax.swing.JButton" binding="easyButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="28"/>
+          <text value="Easy!"/>
+        </properties>
+      </component>
+      <component id="1f432" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="MV Boli" size="96"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="Hangman!"/>
+        </properties>
+      </component>
+      <component id="5e63b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1246977"/>
+          <font name="MV Boli" size="48"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Made by Jayden Sipe"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
